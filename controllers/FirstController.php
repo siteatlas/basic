@@ -41,5 +41,8 @@ class FirstController extends \yii\web\Controller {
         ]);
     }
 
+    public function actionPage5() {
+        return $this->render('page5');
+    }
     
 }

@@ -43,14 +43,14 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'หน้าแรก'=>'site/index',
+                'เกี่ยวกับเรา'=>'site/about'
             ],
         ],
-        */
     ],
     'params' => $params,
 ];

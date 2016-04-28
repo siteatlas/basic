@@ -5,7 +5,8 @@ use miloschuman\highcharts\HighchartsAsset;
 HighchartsAsset::register($this)->withScripts([
 	'highcharts-more', 
 	'themes/grid',
-        //'themes/dark-unica'
+        //'themes/skies',
+        'themes/dark-green'
 ]);
 // ส่วนแสดงกราฟ
 ?>

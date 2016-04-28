@@ -21,6 +21,13 @@ $this->params['breadcrumbs'][] = $this->title;
             table-responsive 
             table-hover'
     ],
-    'headerRowOptions'=>['class'=>'success']
+    'headerRowOptions'=>['class'=>'success'],
+    'columns'=>[
+        'kpiname',
+        'divide',
+        'denom',
+        'result',
+        'target'
+    ]
 ]);
 ?>

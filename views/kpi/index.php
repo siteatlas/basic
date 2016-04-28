@@ -1,9 +1,23 @@
 <?php
-/* @var $this yii\web\View */
-?>
-<h1>kpi/index</h1>
+$this->title = 'KPI System Menu';
+$this->params['breadcrumbs'][] = $this->title;
 
-<p>
-    You may change the content of this page by modifying
-    the file <code><?= __FILE__; ?></code>.
-</p>
+// copy มาจากตัวอย่าง page4
+// เพื่อทำระบบเมนู
+$link1 = Yii::$app->urlManager->createUrl([
+    'kpi/kpi1',
+    ]);
+$link2 = Yii::$app->urlManager->createUrl([
+    'kpi/kpi2',
+    ]);
+
+?>
+<h1>first/index</h1>
+<!-- ส่วนแสดงค่าเมนู -->
+<a href="<?= $link1 ?>">
+    1. แสดงตัวชี้วัด QOF
+</a>
+<br />
+<a href="<?= $link2 ?>">
+    2. แสดงผลลัพธ์ตัวชี้วัด QOF
+</a>

@@ -46,6 +46,8 @@ MaterialAsset::register($this);
             ['label' => 'Report', 'items' => [
                 ['label' => 'My First Page',
                     'url' => ['/first/index']],
+                ['label' => 'Graph',
+                    'url' => ['/chart/index']],
                 ['label' => 'KPI System',
                     'url' => ['/kpi/index']],
             ]],
